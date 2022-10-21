@@ -1,0 +1,40 @@
+
+/*Điều chỉnh tiêu đề đầu bài*/
+.header{
+    display: flex;
+    margin-top: 50px;
+}
+
+.avt img{
+    width: 300px;
+}
+
+.search input{
+    border-radius: 25px;
+    width: 250px;
+}
+
+#a{
+    padding: 5px;
+    background-color: transparent;
+}
+
+#b{
+    float: right;
+    border: none; 
+    width: 30px; 
+    height: 30px; 
+    display: block;
+    background-color: white;
+ }
+
+ /*Drop down list */
+ .header-list ul{
+    list-style-type: none;
+    display:flex;
+    margin-top: 20px;
+}
+
+.header-list ul li{
+    margin-right: 25px;
+}
